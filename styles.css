@@ -1,0 +1,28 @@
+:root{--rose:#c2185b;--rose2:#fce4ec;--plum:#4a1942;--leaf:#2e7d32;--bg:#fff8f6;--ink:#2b2230;--mut:#6f6377;--card:#fff;--line:#f0d9df}
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--ink);padding-bottom:76px}
+header{background:linear-gradient(135deg,var(--rose),var(--plum));color:#fff;padding:18px 16px 14px}
+header h1{margin:0;font-size:22px}header p{margin:2px 0 0;font-size:13px;opacity:.9}
+main{padding:14px;max-width:640px;margin:auto}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;margin-bottom:12px}
+.card h2{margin:0 0 8px;font-size:17px;color:var(--plum)}
+.card h3{margin:12px 0 4px;font-size:14px;color:var(--rose)}
+label{display:block;font-size:13px;color:var(--mut);margin:8px 0 3px}
+input,select,textarea{width:100%;padding:10px;border:1px solid #e3c9d1;border-radius:10px;font:inherit;background:#fff}
+button{background:var(--rose);color:#fff;border:0;border-radius:10px;padding:10px 14px;font:inherit;font-weight:600;margin-top:10px;cursor:pointer}
+button.alt{background:#fff;color:var(--rose);border:1px solid var(--rose)}
+.row{display:flex;gap:8px}.row>*{flex:1}
+nav{position:fixed;bottom:0;left:0;right:0;background:#fff;border-top:1px solid var(--line);display:flex;overflow-x:auto;padding-bottom:env(safe-area-inset-bottom)}
+nav button{background:none;color:var(--mut);border-radius:0;margin:0;flex:1;min-width:64px;padding:10px 4px;font-size:11px;font-weight:500}
+nav button.on{color:var(--rose);font-weight:700;border-top:3px solid var(--rose)}
+nav button span{display:block;font-size:20px}
+.pill{display:inline-block;background:var(--rose2);color:var(--rose);border-radius:20px;padding:3px 10px;font-size:12px;font-weight:600}
+.phase{border-left:6px solid var(--rose)}
+ul{margin:4px 0;padding-left:20px}li{margin:3px 0}
+.do{color:var(--leaf)}.dont{color:#b71c1c}
+.warn{background:#fff3e0;border:1px solid #ffcc80;border-radius:10px;padding:10px;font-size:13px}
+.msg{padding:8px 11px;border-radius:12px;margin:6px 0;max-width:88%;font-size:14px;white-space:pre-wrap}
+.me{background:var(--rose);color:#fff;margin-left:auto}.bot{background:#f3e5f5}.pro{background:#e8f5e9}
+.small{font-size:12px;color:var(--mut)}
+.hide{display:none}
+.bar{height:10px;background:#f3d7df;border-radius:6px;overflow:hidden}.bar i{display:block;height:100%;background:var(--rose)}
